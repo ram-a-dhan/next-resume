@@ -1,0 +1,47 @@
+.Home {
+  width: 100%;
+}
+
+.sectionContainer {
+  width: 100% !important;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+#intro .sectionContent {
+  background-color: rgba(var(--background-color-rgb), .5);
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexRowReverse {
+  flex-direction: row-reverse;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.flexColumnReverse {
+  flex-direction: column-reverse;
+}
+
+.sectionTitle, .slideTitle {
+  color: var(--text-color);
+  text-align: center;
+}
